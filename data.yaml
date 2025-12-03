@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['varroa-mite']
+
+roboflow:
+  workspace: jinhyeok-pdyrj
+  project: varroa-mites-detector-uzv5u
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jinhyeok-pdyrj/varroa-mites-detector-uzv5u/dataset/1
